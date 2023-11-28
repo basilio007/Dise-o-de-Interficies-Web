@@ -1,0 +1,103 @@
+.plegable{
+  margin:auto;
+  text-align: center;
+}
+
+.nextEvents{
+  text-align: center;
+}
+
+.tarjetas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tarjeta1 {
+    text-align: center;
+    width: 200px; 
+    border: 2px solid #181313;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.39);
+  }
+  
+  .card1header {
+    background-color: #0b417b;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .car1body {
+    padding: 15px;
+  }
+
+  .passedEvents{
+    text-align: center;
+  }
+
+  .tarjetas2{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+      
+  }
+
+  .tarjeta2 {
+    text-align: center;
+     /* flex-wrap: wrap;*/
+       width: 200px; 
+       border: 2px solid #181313;
+      border-radius: 20px;
+       overflow: hidden;
+       margin: 20px;
+       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.39);
+     }
+
+  .card2header {
+    background-color: #094d41;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+  .car2body {
+    padding: 15px;
+    color: aliceblue;
+  }
+ 
+label{
+  background-color: #181313;
+  color: aliceblue;
+  border-radius: 5px;
+}
+select{
+  background-color: #181313;
+  color: aliceblue;
+  border-radius: 5px;
+}
+.nextEvents{
+  background-color: #181313;
+  color: aliceblue;
+  border-radius: 10px;
+}
+
+.passedEvents{
+  background-color: darkgrey;
+  color: aliceblue;
+  border-radius: 10px; 
+}
+footer{
+  text-align: center;
+  color: darkgray;
+  text-decoration:underline
+}
+
+body {
+  
+  background-image: url('fotos/tour.jpg');
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+}
